@@ -1,0 +1,8 @@
+project1/pom.xml
+.idea/modules.xml
+.idea/Project-1.iml
+.idea/vcs.xml
+.idea/workspace.xml
+project1/target/test-classes/.netbeans_automatic_build
+project1/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+project1/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst

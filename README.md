@@ -4,4 +4,6 @@ CSCI-4/5448 Object Oriented Analysis/Design
 
 Joshua Khoo  
 Elizabeth Robinson  
-Ray Shash  
+Ray Shash
+
+![Inheritance Grahp](./Images/InheritanceGraph.png)

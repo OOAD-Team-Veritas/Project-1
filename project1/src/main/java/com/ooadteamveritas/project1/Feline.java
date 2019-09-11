@@ -1,13 +1,17 @@
+/*
+  There will not be an instance of Feline, this class just adds roam() method
+
+*/
 package com.ooadteamveritas.project1;
 
-public class Feline extends Animal{
+public abstract class Feline extends Animal{
+    
     public Feline(String inputName){
-        //Call's Animal's constructor
+        //Calls Animal's constructor
         super(inputName);
     }
     
-    @Override
-    public void makeNoise(){
-        System.out.println("Meeeooow!"); 
+    public void roam(){
+        state = "Roaming";
     }
 }

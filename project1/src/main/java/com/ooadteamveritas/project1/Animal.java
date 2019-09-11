@@ -25,9 +25,6 @@ public abstract class Animal{
     public void sleep(){
         state = "Sleeping";
     }
-    public void roam(){
-        state = "Roaming";
-    }
 
     //Used for roll call
     abstract public void makeNoise();

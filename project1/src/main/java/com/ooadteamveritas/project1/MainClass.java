@@ -7,8 +7,11 @@ class MainClass
 { 
     public static void main(String args[]) 
     { 
-        System.out.println("This is main in MainClass!\n"); 
-        Feline cat = new Feline("Jerry");
-        cat.makeNoise();
+        Tiger sam = new Tiger("Sam");
+        Cat tom = new Cat("Tom");
+        Lion mufasa = new Lion("Mufasa");
+        sam.makeNoise();
+        tom.makeNoise();
+        mufasa.makeNoise();
     } 
 } 
