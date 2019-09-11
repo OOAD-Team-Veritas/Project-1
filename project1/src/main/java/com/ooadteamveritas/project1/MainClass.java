@@ -13,5 +13,10 @@ class MainClass
         sam.makeNoise();
         tom.makeNoise();
         mufasa.makeNoise();
+        
+        //Test cat random behavior
+        for (int i = 0; i < 5; i++) {
+            tom.randomBehavior();
+        }
     } 
 } 

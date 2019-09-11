@@ -6,3 +6,10 @@ project1/pom.xml
 project1/target/test-classes/.netbeans_automatic_build
 project1/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
 project1/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+project1/target/classes/.netbeans_automatic_build
+project1/target/classes/com/ooadteamveritas/project1/Animal.class
+project1/target/classes/com/ooadteamveritas/project1/Tiger.class
+project1/target/classes/com/ooadteamveritas/project1/MainClass.class
+project1/target/classes/com/ooadteamveritas/project1/Lion.class
+project1/target/classes/com/ooadteamveritas/project1/Feline.class
+project1/target/classes/com/ooadteamveritas/project1/Cat.class
