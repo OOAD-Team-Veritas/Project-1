@@ -6,4 +6,4 @@ Joshua Khoo
 Elizabeth Robinson  
 Ray Shash
 
-![Inheritance Graph](/Images/InheritanceGraph.png)
+![Inheritance Graph](/Images/InheritanceGraph.PNG)
