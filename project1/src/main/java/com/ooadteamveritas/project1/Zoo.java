@@ -23,11 +23,11 @@ public class Zoo{
     
     public void openZoo(){
         this.zooOperations = true;
-        System.out.println("Zoo is now open!\n"); 
+        System.out.println("Zoo is now open!"); 
     }
     
     public void closeZoo(){
         this.zooOperations = false;
-        System.out.println("Zoo is now closed!\n"); 
+        System.out.println("Zoo is now closed!"); 
     }
 }

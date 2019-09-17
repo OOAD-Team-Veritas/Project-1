@@ -10,38 +10,45 @@
 package com.ooadteamveritas.project1;
 
 public class ZooKeeper {
+    //The Keeper's name
     private String name;
     
-    public ZooKeeper(String name){
+    //The zoo that he/she works for
+    private Zoo workplace;
+    
+    public ZooKeeper(String name, Zoo workplace){
         this.name = name;
+        this.workplace = workplace;
     }
     
     public void openZoo(){
-        System.out.println("Zookeer " + name + " is opening the Zoo!\n"); 
+        System.out.println("Zookeeper " + name + " is opening the Zoo!"); 
+        workplace.openZoo();
     }
     
     //Wake up all the animals in zoo
     public void wakeUpAnimals(){
-        System.out.println("Zookeer " + name + " is waking up Animals!\n");
+        System.out.println("Zookeeper " + name + " is waking up Animals!");
     }
     
     //Roll call all animals in zoo
     public void rollCall(){
-        System.out.println("Zookeer " + name + " is now doing roll call!\n");
+        System.out.println("Zookeeper " + name + " is now doing roll call!");
     }
     
     //Feed all animals in zoo
     public void feedAnimals(){
-        System.out.println("Zookeer " + name + " is feeding Animals!\n");
+        System.out.println("Zookeeper " + name + " is feeding Animals!");
     }
     
     //Exercise all animals in zoo
     public void exerciseAnimals(){
-        System.out.println("Zookeer " + name + " is exercising Animals!\n");
+        System.out.println("Zookeeper " + name + " is exercising Animals!");
     }
     
     public void closeZoo(){
-        System.out.println("Zookeer " + name + " is closing the Zoo.\n");
+        System.out.println("Zookeeper " + name + " is closing the Zoo.");
+        workplace.closeZoo();
     }
     
     //Wake up individual animal

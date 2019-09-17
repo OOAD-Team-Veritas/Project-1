@@ -7,16 +7,22 @@ class MainClass
 { 
     public static void main(String args[]) 
     { 
-        Tiger sam = new Tiger("Sam");
-        Cat tom = new Cat("Tom");
-        Lion mufasa = new Lion("Mufasa");
-        sam.makeNoise();
-        tom.makeNoise();
-        mufasa.makeNoise();
+        //Set up our Zoo
+        Zoo theOOPZoo = new Zoo();
         
-        //Test cat random behavior
-        for (int i = 0; i < 5; i++) {
-            tom.randomBehavior();
-        }
+        //Fill up Zoo with animals
+        theOOPZoo.addAnimal(new Cat("Tom"));
+        theOOPZoo.addAnimal(new Tiger("Tigger"));
+        theOOPZoo.addAnimal(new Lion("Scar"));
+        
+        //Set up our Zookeeper
+        ZooKeeper griffin = new ZooKeeper("Griffin Keyes", theOOPZoo);
+        
+        //Open the zoo!
+        griffin.openZoo();
+        
+        //Next - the Zookeeper will do this duties
+        
+        griffin.closeZoo();
     } 
 } 
