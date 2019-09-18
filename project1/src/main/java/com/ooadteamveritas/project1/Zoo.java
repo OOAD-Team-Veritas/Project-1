@@ -8,7 +8,7 @@ import java.util.List;
 public class Zoo{
     
     //The list of Zoo animals
-    public List<Animal> zooAnimlals = new LinkedList<Animal>();
+    public List<Animal> zooAnimals = new LinkedList<Animal>();
     private Boolean zooOperations;
     
     public Zoo(){
@@ -18,7 +18,7 @@ public class Zoo{
     
     //Add animal to the zoo
     public void addAnimal(Animal newAnimal){
-        this.zooAnimlals.add(newAnimal);
+        this.zooAnimals.add(newAnimal);
     }
     
     public void openZoo(){

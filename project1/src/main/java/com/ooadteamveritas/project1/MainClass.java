@@ -21,8 +21,13 @@ class MainClass
         //Open the zoo!
         griffin.openZoo();
         
-        //Next - the Zookeeper will do this duties
-        
+        //Next - the Zookeeper will do his duties
+        griffin.wakeUpAnimals();
+        griffin.rollCall();
+        griffin.feedAnimals();
+        griffin.exerciseAnimals();
+
+        //Lastly close the zoo
         griffin.closeZoo();
     } 
 } 
