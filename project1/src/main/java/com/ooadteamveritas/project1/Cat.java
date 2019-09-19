@@ -23,6 +23,7 @@ public class Cat extends Feline {
         System.out.println("Meeeooow! - said " + name + " the Cat"); 
     }
     
+    //I think this is supposed to be a specific behavior (like roll call? not sure)
     public void randomBehavior(){
         Random rand = new Random();
         int num = rand.nextInt(4)+1;

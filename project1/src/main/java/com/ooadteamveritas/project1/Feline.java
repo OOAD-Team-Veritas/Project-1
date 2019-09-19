@@ -12,6 +12,6 @@ public abstract class Feline extends Animal{
     }
     
     public void roam(){
-        state = "Roaming";
+        state = "Prowling";
     }
 }
