@@ -3,10 +3,27 @@ This is the test class that contains the main() function for our testing
 */
 package com.ooadteamveritas.project1;
 
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
+
 class MainClass 
 { 
-    public static void main(String args[]) 
+    public static void main(String args[]) throws FileNotFoundException 
     { 
+        // Save original out stream.
+        PrintStream originalOut = System.out;
+        // Save original err stream.
+        PrintStream originalErr = System.err;
+
+        // Create a new file output stream.
+        PrintStream fileOut = new PrintStream("./out.txt");
+        // Create a new file error stream. 
+        PrintStream fileErr = new PrintStream("./err.txt");
+
+        // Redirect standard out to file.
+        System.setOut(fileOut);
+        // Redirect standard err to file.
+        System.setErr(fileErr);
         //Set up our Zoo
         Zoo theOOPZoo = new Zoo();
         
