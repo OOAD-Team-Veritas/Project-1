@@ -12,6 +12,6 @@ Our output file:
 [out.txt](/project1/out.txt)
 
 Our classes
-![project1](https://github.com/OOAD-Team-Veritas/Project-1/tree/master/project1/src/main/java/com/ooadteamveritas/project1)
+[project1](https://github.com/OOAD-Team-Veritas/Project-1/tree/master/project1/src/main/java/com/ooadteamveritas/project1)
 
 ![Inheritance Graph](/Images/InheritanceGraph.PNG)
