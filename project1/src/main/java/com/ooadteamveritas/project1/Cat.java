@@ -38,9 +38,6 @@ public class Cat extends Feline {
             case 3: 
                 this.eat();
                 break;
-            case 4: 
-                this.exercise();
-                break;
             default: this.sleep();
         }
         //Using this make it clear that its of this object...

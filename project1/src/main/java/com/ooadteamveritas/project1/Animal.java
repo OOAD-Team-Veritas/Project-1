@@ -33,6 +33,8 @@ public abstract class Animal{
     //Used for roll call
     abstract public void makeNoise();
     
+    abstract public void roam();
+    
     //Zookeeper needs to feed and excercise animals
     public void eat(){
         state = "eating";
