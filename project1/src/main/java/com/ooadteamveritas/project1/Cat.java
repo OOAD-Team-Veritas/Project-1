@@ -41,7 +41,5 @@ public class Cat extends Feline {
                 break;
             default: this.sleep();
         }
-        //Using this make it clear that its of this object...
-        System.out.println(this.name + " the Cat is now" + this.state );
     }
 }
