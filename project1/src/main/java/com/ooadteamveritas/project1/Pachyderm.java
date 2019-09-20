@@ -12,6 +12,8 @@ public abstract class Pachyderm extends Animal{
     }
     
     public void roam(){
-        state = "Roaming";
+        state = "roaming";
+        System.out.println(name + " the Pachyderm is " + state);
+
     }
 }

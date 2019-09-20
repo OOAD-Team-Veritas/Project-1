@@ -12,6 +12,7 @@ public abstract class Canine extends Animal{
     }
     
     public void roam(){
-        state = "Trotting";
+        state = "trotting";
+        System.out.println(name + " the Canine is " + state);
     }
 }

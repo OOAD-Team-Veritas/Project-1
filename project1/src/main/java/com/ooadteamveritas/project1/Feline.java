@@ -12,6 +12,8 @@ public abstract class Feline extends Animal{
     }
     
     public void roam(){
-        state = "Prowling";
+        state = "prowling";
+        System.out.println(name + " the Feline is " + state);
+
     }
 }

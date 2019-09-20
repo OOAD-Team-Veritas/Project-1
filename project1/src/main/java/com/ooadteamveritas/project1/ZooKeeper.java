@@ -47,23 +47,13 @@ public class ZooKeeper {
     //Exercise all animals in zoo
     public void exerciseAnimals(){
         System.out.println("Zookeeper " + name + " is exercising Animals!");
-        workplace.zooAnimals.forEach(animal -> animal.exercise());
+        workplace.zooAnimals.forEach(animal -> animal.roam());
     }
     
     public void closeZoo(){
         System.out.println("Zookeeper " + name + " is closing the Zoo.");
+        workplace.zooAnimals.forEach(animal -> animal.sleep());
         workplace.closeZoo();
     }
     
-    //Wake up individual animal
-    private void wakeUp(){}
-
-    //Roll call individual animal
-    private void call(){}
-
-    //Feed individual animal
-    private void feed(){}
-
-    //Excercise individual animal
-    private void excercise(){}
 }

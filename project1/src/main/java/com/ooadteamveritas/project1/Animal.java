@@ -19,11 +19,15 @@ public abstract class Animal{
     }
 
     public void wakeup(){
-        state = "Awake";
+        state = "awake";
+        System.out.println(name + " the Animal is " + state);
+
     }
 
     public void sleep(){
-        state = "Sleeping";
+        state = "sleeping";
+        System.out.println(name + " the Animal is " + state);
+
     }
 
     //Used for roll call
@@ -31,9 +35,8 @@ public abstract class Animal{
     
     //Zookeeper needs to feed and excercise animals
     public void eat(){
-        state = "Eating";
-    }
-    public void exercise(){
-        state = "Exercising";
+        state = "eating";
+        System.out.println(name + " the Animal is " + state);
+
     }
 }
