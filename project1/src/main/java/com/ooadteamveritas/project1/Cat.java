@@ -21,7 +21,7 @@ public class Cat extends Feline {
     
     @Override
     public void makeNoise(){
-        System.out.println("Meeeooow! - said " + name + " the Cat"); 
+        randomBehavior();
     }
     
     //I think this is supposed to be a specific behavior (like roll call? not sure)
