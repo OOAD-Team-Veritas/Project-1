@@ -1,6 +1,5 @@
 /*
   There will not be an instance of Feline, this class just adds roam() method
-
 */
 package com.ooadteamveritas.project1;
 
@@ -11,9 +10,10 @@ public abstract class Feline extends Animal{
         super(inputName);
     }
     
+    //roam is first defined here
     public void roam(){
         state = "prowling";
-        System.out.println(name + " the Feline is " + state);
+        System.out.println(name + " the " + this.animalType + " is " + state);
 
     }
 }

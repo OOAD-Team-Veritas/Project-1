@@ -3,6 +3,7 @@ package com.ooadteamveritas.project1;
 public class Elephant extends Pachyderm {
     public Elephant(String inputName){
         super(inputName);
+        this.animalType = "Elephant";
     }
     
     @Override

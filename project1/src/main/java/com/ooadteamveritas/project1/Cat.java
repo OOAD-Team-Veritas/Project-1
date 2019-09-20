@@ -16,6 +16,7 @@ import java.util.Random;
 public class Cat extends Feline {
     public Cat(String inputName){
         super(inputName);
+        this.animalType = "Cat";
     }
     
     @Override
